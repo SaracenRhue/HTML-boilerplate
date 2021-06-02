@@ -1,0 +1,24 @@
+:root{
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: var(--bs-font-sans-serif);
+    color: #212529;
+    background-color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+    /* Dark theme styles go here */
+}
+ 
+@media (prefers-color-scheme: light) {
+    /* Light theme styles go here */
+}
